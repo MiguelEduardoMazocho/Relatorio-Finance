@@ -1,0 +1,1 @@
+os valores podem ser alterados no arquivo "financial_data.csv"
