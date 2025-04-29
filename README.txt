@@ -1,59 +1,118 @@
-Relatório Financeiro
+📈 Relatório Financeiro
 
-Este projeto tem como objetivo gerar relatórios financeiros a partir de dados fornecidos em um arquivo CSV. Ele processa os dados, cria visualizações gráficas e exporta os resultados em formato PDF.
+Bem-vindo ao projeto Relatório Financeiro!Este projeto permite processar dados financeiros de um arquivo CSV, gerar gráficos de análise e exportar um relatório final em PDF.
 
-📁 Estrutura do Projeto
-relatory.py: Script principal que processa os dados, gera gráficos e cria o relatório PDF.
+✨ Funcionalidades
 
-financial_data.csv: Arquivo de entrada contendo os dados financeiros a serem analisados.
+📥 Importa dados de um arquivo CSV.
 
-financial_pie_chart.png: Gráfico de pizza gerado a partir dos dados, utilizado no relatório.
+📊 Cria um gráfico de pizza ilustrando a distribuição dos dados.
 
-financial_report.pdf: Relatório final em PDF contendo as análises e visualizações.
+📝 Gera um relatório financeiro completo em PDF contendo o gráfico e resumos.
 
-README.txt: Instruções básicas sobre o projeto.
+🔎 Permite visualizar o relatório diretamente no Visual Studio Code com extensão PDF Viewer.
 
-⚙️ Como Utilizar
-Preparar os Dados: Edite o arquivo financial_data.csv com seus próprios dados financeiros. Certifique-se de manter o formato correto para que o script possa processá-lo adequadamente.
+📂 Estrutura do Projeto
 
-Executar o Script:
+Relatorio-Finance/
+├── financial_data.csv         # Arquivo de dados financeiros
+├── financial_pie_chart.png    # Gráfico gerado automaticamente
+├── financial_report.pdf       # Relatório financeiro final
+├── relatory.py                # Script principal do projeto
+└── README.txt                 # Anotações adicionais
 
-Certifique-se de ter o Python instalado em sua máquina. Execute o script relatory.py para processar os dados e gerar o relatório:
+🛠️ Pré-requisitos
 
-bash
-Copiar
-Editar
-python relatory.py
-Resultado: Após a execução, serão gerados:
+Antes de começar, você vai precisar ter instalado em sua máquina:
 
-Um gráfico de pizza (financial_pie_chart.png) representando a distribuição dos dados.
+Python 3.8 ou superior
 
-Um relatório em PDF (financial_report.pdf) contendo o gráfico e outras informações relevantes.
+Visual Studio Code (VSCode) (opcional para edição/visualização)
 
-✅ Requisitos
+Extensão vscode-pdf no VSCode (opcional para abrir PDFs)
 
-Python 3
+Instalando o PDF Viewer no VSCode:
 
-Bibliotecas Python necessárias (certifique-se de instalá-las antes de executar o script):
+Acesse o VSCode.
 
-pandas
+Pressione Ctrl + Shift + X para abrir a aba de extensões.
 
-matplotlib
+Procure por vscode-pdf e clique em Instalar.
 
-reportlab
+📦 Instalar dependências
 
-Você pode instalar as bibliotecas necessárias utilizando o pip:
+No terminal, instale as bibliotecas necessárias:
 
-bash
-Copiar
-Editar
 pip install pandas matplotlib reportlab
 
-📌 Observações
+🚀 Como Executar o Projeto
 
-Os valores podem ser alterados no arquivo financial_data.csv.
+Clone o repositório:
 
-Certifique-se de que os dados estejam no formato esperado para evitar erros durante a execução.
+git clone https://github.com/MiguelEduardoMazocho/Relatorio-Finance.git
+
+Acesse a pasta do projeto:
+
+cd Relatorio-Finance
+
+Edite o arquivo financial_data.csv com seus próprios dados financeiros, respeitando o formato.
+
+Execute o script para gerar o relatório:
+
+python relatory.py
+
+Visualize o relatório gerado (financial_report.pdf) diretamente no VS Code ou em qualquer leitor de PDF.
+
+🧹 Formato Esperado do CSV
+
+O arquivo financial_data.csv deve ter no mínimo duas colunas:
+
+Categoria
+
+Valor
+
+Aluguel
+
+1200
+
+Alimentação
+
+800
+
+Transporte
+
+300
+
+...
+
+...
+
+Categoria: Nome da despesa/receita.
+
+Valor: Quantia numérica associada.
+
+📊 Resultado
+
+O script irá gerar:
+
+Um gráfico de pizza salvo como financial_pie_chart.png.
+
+Um relatório financeiro em PDF chamado financial_report.pdf, contendo o gráfico e as informações extraídas do CSV.
+
+❗ Observações
+
+Certifique-se de que o arquivo financial_data.csv esteja formatado corretamente para evitar erros.
+
+Se quiser mudar o visual do gráfico ou do relatório, edite o código no relatory.py.
 
 📄 Licença
-Este projeto está licenciado sob a MIT License.
+
+Este projeto está licenciado sob a Licença MIT.Sinta-se à vontade para usar, modificar e distribuir.
+
+🤝 Contribuindo
+
+Contribuições são sempre bem-vindas!Se você tiver sugestões de melhorias, abra uma issue ou envie um pull request.
+
+🎯 Autor
+
+Desenvolvido por Miguel Eduardo Mazocho
