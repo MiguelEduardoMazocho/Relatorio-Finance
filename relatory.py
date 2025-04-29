@@ -72,7 +72,3 @@ class GeradorRelatorioFinanceiroApp:
         self.label_resultado = tk.Label(self.root, text=f"Lucro: R$ {self.lucro:.2f} ({porcentagem_lucro:.2f}%)", font=("Arial", 14))
         self.label_resultado.pack(pady=10)
 
-if __name__ == "__main__":
-    root = tk.Tk()
-    app = GeradorRelatorioFinanceiroApp(root)
-    root.mainloop()
