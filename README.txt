@@ -1,4 +1,5 @@
 Relatório Financeiro
+
 Este projeto tem como objetivo gerar relatórios financeiros a partir de dados fornecidos em um arquivo CSV. Ele processa os dados, cria visualizações gráficas e exporta os resultados em formato PDF.
 
 📁 Estrutura do Projeto
@@ -30,7 +31,8 @@ Um gráfico de pizza (financial_pie_chart.png) representando a distribuição do
 Um relatório em PDF (financial_report.pdf) contendo o gráfico e outras informações relevantes.
 
 ✅ Requisitos
-Python 3.x
+
+Python 3
 
 Bibliotecas Python necessárias (certifique-se de instalá-las antes de executar o script):
 
@@ -46,7 +48,9 @@ bash
 Copiar
 Editar
 pip install pandas matplotlib reportlab
+
 📌 Observações
+
 Os valores podem ser alterados no arquivo financial_data.csv.
 
 Certifique-se de que os dados estejam no formato esperado para evitar erros durante a execução.
