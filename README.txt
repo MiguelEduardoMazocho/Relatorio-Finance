@@ -43,7 +43,7 @@ Procure por vscode-pdf e clique em Instalar.
 
 No terminal, instale as bibliotecas necessárias:
 
-pip install pandas matplotlib reportlab
+pip install pandas matplotlib fpdf
 
 🚀 Como Executar o Projeto
 
